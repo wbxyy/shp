@@ -1,0 +1,13 @@
+/* 清除浮动 */
+.clearfix::after,
+.clearfix::before {
+  display: table;
+  content: '';
+}
+.clearfix::after {
+  clear: both;
+}
+
+body {
+  background-color: pink;
+}
