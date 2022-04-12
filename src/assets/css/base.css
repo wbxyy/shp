@@ -7,7 +7,3 @@
 .clearfix::after {
   clear: both;
 }
-
-body {
-  background-color: pink;
-}

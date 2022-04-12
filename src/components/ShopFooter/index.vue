@@ -1,31 +1,5 @@
 <template>
-  <header>
-    <!-- 顶条 -->
-    <div class="top_bar">
-      <div class="welcome">
-        <div class="title">尚硅谷欢迎您</div>
-        <div class="login">
-          <span>请登录</span>
-          |
-          <span>免费注册</span>
-        </div>
-      </div>
-      <div class="shortcut">
-        <ul>
-          <li v-for="(item, index) in shortcut">
-            <a href="#">{{ item.title }}</a>
-          </li>
-        </ul>
-      </div>
-    </div>
-    <!-- 底栏 -->
-    <div class="wrap">
-      <div class="logo"><h1></h1></div>
-      <div class="search">
-        <input type="search" />
-      </div>
-    </div>
-  </header>
+  <footer></footer>
 </template>
 <script>
 import { defineComponent } from 'vue'

@@ -1,12 +1,19 @@
 <template>
-  <h1>hello</h1>
+  <ShopHeader></ShopHeader>
+  <ShopFooter></ShopFooter>
 </template>
-
 <script>
-export default {
-  name: 'App',
-  components: {},
-}
+import { defineComponent } from 'vue'
+import ShopHeader from './components/ShopHeader'
+import ShopFooter from './components/ShopFooter'
+export default defineComponent({
+  components: {
+    ShopHeader,
+    ShopFooter,
+  },
+  data() {
+    return {}
+  },
+})
 </script>
-
-<style lang="less"></style>
+<style lang="less" scoped></style>
