@@ -7,3 +7,13 @@
 .clearfix::after {
   clear: both;
 }
+
+/* 版心 */
+.w {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+a {
+  color: #676867;
+}
